@@ -1,0 +1,124 @@
+* {padding: 0; margin: 0;}
+
+.container { margin: auto;  width: 1000px}
+body {background: #EAE8E4; }
+header {height: 100px; background: white; overflow: hidden;}
+header .kiri img {margin-left: 40px; width: 100px; height: 90px;  float: left; clip-path: circle(50%); }
+
+header .tengah {
+ float: left; font-size: 20px; color: lightblue; margin-top: 30px;
+ font-family: Heavitas; font-size: 15px;
+} 
+header nav {height: 42px; background: black; margin-bottom: 20px; overflow: hidden; margin-top: 25px; float:right;
+line-height: 45px; margin-right: 20px;
+position: sticky; 
+top: 10px;
+}
+nav ul li {float: left; list-style: none;
+ background: white;
+}
+
+.container nav a:hover {color: #4542bd ; transition: all 0.25s ease-in-out;}
+
+nav ul li a {margin-right: 15px;
+ text-decoration: none;
+ color: red; font-family: "Impact";
+ font-size: 18px solid;
+ padding: 3px 15px;
+ 
+}
+
+nav ul {
+	position: sticky;
+}
+nav ul li ul {display: none; }
+
+nav ul li:hover > ul {display: block; }
+
+nav ul li ul {position: absolute;}
+
+nav ul li ul li {float: none;
+ position: relative;
+}
+
+nav ul li a:hover {color: white; }
+
+nav ul ul ul {left: 100%;
+ top: 0;
+ width: 200px;
+}
+
+article {width: 1000px;}
+.keterangan {margin-top: 30px; margin-bottom: 0px;}
+.keterangan a {text-decoration: none; color: grey;}
+.keterangan a:hover {color: white; transition: all 0.25s ease-in-out;}
+
+.atas .gambar img {width: 1000px; height: 200px;}
+
+.atas .tulisan h1{position: relative; top: 50%; left: 55%;  color: white; 
+		transform: translate(-50%, +450%); white-space: nowrap;}
+
+
+.tgh .kiri {float: left; text-align: justify; width: 420px; 
+	background: red; padding: 40px; height: 480px; }
+.tgh .kiri hr {position: relative; top: 4%; left: 19%; color: white; width: 90px; height: 2px;
+ background-color: white; transform: translate(-50%, -50%);}
+ .tgh .kiri h1 {padding-left: 29px; padding-top: 15px;}
+ .tgh .kiri p {padding-left: 30px;}
+
+.tgh .kanan img {width: 500px; height: 560px;}
+
+table	{font-family: "Arial"; margin-top: 30px;}
+
+caption {border: 3px solid white; padding-top: 5px; padding-bottom: 5px; 
+	margin-bottom: 5px;}
+
+th,td {padding: 5px 20px;}
+
+}
+tbody {background-color: red;}
+td{color: blue;}
+
+tbody tr td:nth-child(4),tbody tr td:nth-child(3) {
+	text-align: right;
+}
+
+a {text-decoration: none; color: black;}
+a:hover {color: blue; transition:all 0.5s ease-in-out;}
+th {text-align: left;}
+.tabel1 {margin-bottom: 30px;}
+
+.bwh .kr {float: left; text-align: justify; width: 500px; 
+	background: red; padding-top: 30px; padding-bottom: 40px;}
+.bwh .knn {float: left; text-align: justify; padding-bottom: 50px;}
+
+.bwh .kr img {width: 200px; height: 150px; padding-left: 30px;}
+.bwh .ket {float: right; text-align: justify;}
+.bwh .ket p{font-size: 14px; margin-bottom: 5px;}
+.ket h3 {padding-right: 40px;}
+.ket h2,p {padding-left: 30px;}
+.ket h2 {margin-bottom: 10px;}
+.bwh .ket {padding-right:; line-height: 28px;}
+
+.bwh .knn h1 {padding-left: 30px; margin-top: 10px;}
+.bwh .knn hr {position: relative; top: 50%; left: 16%; color: white; width: 90px; height: 2px;
+ background-color: white; transform: translate(-50%, -50%); margin-top: 20px; margin-bottom: 20px;}
+
+ .bwh .knn {padding-top: 30px; background: #93ffff; width: 500px;}
+.itemform .form1 input {margin:2px; line-height:26px;width:370px; }
+.itemform .form1 input.inputText {padding: 0 0 0 10px;}
+.itemform .form1 input.inputText:hover {background-color: #C3A2C0;}
+ 
+.itemform .form2 input {margin:2px; line-height:120px;width:370px; }
+.itemform .form2 input.inputText {padding-left: 10px;}
+.itemform .form2 input.inputText:hover {background-color: #C3A2C0;}
+
+.subrek {margin-top: 20px;}
+.subrek a{border: 3px solid white; color: white;}
+.subrek a {background: black; padding: 5px 10px 5px 10px; border-radius: 10px;
+		font-size: 15px; font-family: "Arial";}
+.subrek a:hover {color: black; background: white; transition:background 0.25s ease-in-out;
+	border: 3px solid black;}
+
+.form1, .form2, .subrek {padding-left: 30px;}
+

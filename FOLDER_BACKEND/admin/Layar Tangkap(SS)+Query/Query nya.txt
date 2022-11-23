@@ -1,0 +1,10 @@
+Hotel: insert into hotel value ('$kodehotel','$namahotel','$alamathotel','$kodearea')
+Area: insert into area value ('$kodefoto','$namafoto','$wilayaharea','$ketarea','$kodedestinasi'
+Berita Wisata : insert into beritawisata value ('$kodeberita','$beritajudul','$beritatipe', '$beritaisi' ,'$kodearea')
+Destinasi : insert into destinasi value ('$kodedestinasi','$namadestinasi','$alamatdestinasi','$kodearea','$kodeprovinsi')
+Kategori : insert into kategori value ('$kodekategori','$namakategori','$kategoriket','$kategoriref')
+Photo Area : insert into fotoarea value('$kodefoto','$namafoto','$wilayahfoto', '$kodearea','$nama')
+Photo Destinasi : insert into fotodestinasi value('$kodefoto','$namafoto','$kodedestinasi','$nama')
+Photo Resto : insert into restoran value('$kodefoto','$namafoto','$kodearea','$nama')
+Provinsi : insert into provinsi values ('$provinsiid', '$provinsinama', '$provinsitglberdiri')
+Registrasi Admin : insert into registrasi value ('$koderegis','$namaawal','$namaakhir','$emailregis','$passregis')
